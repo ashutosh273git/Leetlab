@@ -12,4 +12,4 @@ authRoutes.post("/logout", authMiddleware, logout)
 
 authRoutes.get("/check", authMiddleware, check)
 
-export default authRoutes
+export default authRoutes 

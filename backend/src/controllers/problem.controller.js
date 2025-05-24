@@ -235,7 +235,6 @@ export const deleteProblem = async(req, res) => {
 }
 
 export const getAllProblemsSolvedByUser = async(req, res) => {
-    const { id } = req.params
 
    try {
     const problems = await db.problem.findMany({
